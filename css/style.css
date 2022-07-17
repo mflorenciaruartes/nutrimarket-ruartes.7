@@ -529,4 +529,7 @@ footer a img{
     width: 100%;
 }
 
+section a:hover{
+    transform: scale(1.5);
+}
 }

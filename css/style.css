@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a{ 
+    /* padding: 10px 30px; */
+    display: flex;
+    justify-content: center;
+   }
+   nav a img{
+    width: 50%;
+   }
+
+    nav ul{
+        width: 100%;
+        /* height: auto; */
+        padding: 10px;
+        margin: auto;
+        list-style: none;
+        background-color:rgba(34, 91, 16, .8);
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    nav ul li{
+        display: flex;
+        /* margin-right: 10px; */
+    }
+
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+header img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+
+h1{
+    color:rgba(34, 91, 16, 1);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+}
+section{
+    width: 100%;
+    height: auto;
+    /* padding: 10px; */
+    /* margin: 0 auto; */
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color:black;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 5px 0;
+    /* margin-left: 10px; */
+}
+
+h3{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 10px;
+}
+h4{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+figcaption{
+    color:black;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+article ul{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: 400;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside ul{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: 400;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    line-height: 1.5;
+}
+p{
+    color:black;
+    font-size: 1.4rem;
+    line-height: 2rem; 
+    font-weight: 400;
+    margin: 0 10px;
+    padding-bottom: 5px;
+}
+
+section article div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-content: space-around;
+    align-items: center;
+}
+section article img{
+    width: 70%;
+    margin: 5px;
+}
+
+section article a{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+section div{
+    width: 90vw;
+}
+
+section div figure a{
+    padding: 5px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; 
+    align-items: center;
+}
+section div figure a img{
+    width: 50%;
+    display: flex;
+}
+
+aside a{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: 400;
+    text-decoration: none;
+}
+section a{
+    color:black;
+    font-size: 1.6rem; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    /* width: 100%; */
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form label, input{
+    display: block;
+    color:black;
+    font-size: 1.4rem;
+    line-height: 2rem; 
+    font-weight: 400;
+    width: 50%;
+}
+form textarea{
+    display: block;
+    color:black;
+    font-size: 1.6rem;
+    line-height: 2rem; 
+    font-weight: 400;
+    width: 95%;
+    height: 30vh;
+}
+
+form label{
+    margin-top: 5px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    border: none;
+    background-color: rgba(34, 91, 16, .8);
+    font-size: 1.4rem;
+    line-height: 2rem; 
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(227, 234, 225, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+footer a img{
+    width: 30px;
+    padding: 0 5px;
+}
+
+
+/*clases*/
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+.txt-italic{
+    font-style: italic;
+}
+.txt-w100{
+    width: 100%;
+}
+.color-greenm{
+    color: rgba(117, 152, 106, 1);
+}
+.color-greens{
+    color: rgba(34, 91, 16, 1);
+}
+.color-greenl{
+    color: rgba(227, 234, 225, 1);
+}
+.bg-greenl1{
+    background-color:rgba(200, 214, 195, 1);
+}
+.bg-greenl2{
+    background-color: rgba(227, 234, 225, 1);
+}
+.bg-greenl3{
+    background-color: rgba(117, 152, 106, 1);
+}
+.bg-greenl4{
+    background-color: rgba(34, 91, 16, 1);
+}
+.img-w50{
+    width: 100%;
+
+}
+.img-w20{
+    width: 50vw;
+    padding: 5px 0;
+}
+.padding20{
+    padding-left: 20px;
+}
+.nosotros__article{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contacto__article{
+    width: 100%;
+    height: 25vh;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gonatural__article{
+    width: 99%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 5px;
+    border:solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+.gonatural__aside{
+    height: auto;
+    padding: 5px;
+    border:solid black 1px;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+.input__enviar{
+    margin-top: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.section__iframe--md{
+    width: 90vw;
+    height: 30vh;
+    padding: 10px;
+}
+.contacto__iframe{
+    width: 100%;
+    height: 30vh;
+}
+.pie{
+    text-align: center;
+    grid-area: pie;
+}
+
+.index__form{
+    width: 95vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around; 
+}
+
+.index__article{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;  
+    align-items: center;
+}
+
+.productos__article{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.contacto__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNav{
+    grid-area: nav;
+}
+
+.header{
+    grid-area: header;
+}
+.titulo{
+    grid-area: h1;
+}
+.section{
+    grid-area: section;  
+}
+
+@media (min-width: 1024px){
+.contenedor{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+    "nav nav"
+    "header header"
+    "h1 h1"
+    "section aside"
+    "pie pie";
+} 
+.gonatural__article{
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+section article img{
+    width: 50vh;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+section article div{
+    flex-flow: column wrap;
+    justify-content: start;
+    align-content: space-around;
+    align-items: flex-start;
+} 
+section div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+figcaption{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px;
+}
+section div figure a img{
+    width: 25vw;
+}
+nav a img {
+    width: 70%;
+}
+nav ul li a{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+form label, input{
+    font-size: 1.6rem; 
+}
+form textarea{
+    width: 45vw;
+    height: 30vh;
+}
+footer{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+footer a img{
+    width: 40px;
+}
+.index__article{
+    flex-flow: row nowrap; 
+}
+.index__form{
+    flex-flow: row nowrap;
+    justify-content: space-between; 
+    padding-left: 20px;
+}
+.index__form-div{
+    align-items: flex-start;
+    text-align: start;
+}
+.section__iframe--md{
+    width: 40vw;
+    height: auto;
+    padding: 10px;
+}
+.img-w20{
+    width: 20%;
+    margin: 0px 0;
+    padding: 20px;
+}
+
+.img-w50{
+    width: 50%;
+    margin: 0px 0;
+}
+
+.contacto__section{
+    flex-flow: row nowrap;
+}
+.contacto__article{
+    width: 33%;
+    height: 120px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__iframe{
+    height: 50vh;
+    padding-bottom: 10px;
+}
+.nosotros__section-div{
+    width: 100%;
+}
+
+}

@@ -396,6 +396,7 @@ footer a img{
 }
 .section{
     grid-area: section;  
+    background: linear-gradient(to right,rgba(34, 91, 16, 1),white);
 }
 
 @media (min-width: 1024px){
